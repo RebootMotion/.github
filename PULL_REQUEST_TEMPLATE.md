@@ -1,23 +1,27 @@
+<!--- The title of the pull request should be the Jira ticket number and name; ex. PIPELINE-6: As a user, I want to be able to log in to the dashboard. -->
+
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum porttitor ante, quis tristique ex rhoncus non. Sed quis mauris quam. Sed interdum nulla enim, sed sagittis ex mollis sit amet.
+<!--- Describe your changes in detail -->
+<!-- Take a look at our Notion page on PRs - https://www.notion.so/rebootmotion/Development-Lifecycle-3b40bde370ed45acbd8a747da58331bd -->
 
 ## Motivation and Context
-Morbi nec tellus sed leo vestibulum pharetra. Vestibulum ultricies lobortis sapien, eu tristique turpis rutrum non. Suspendisse vitae condimentum nisl. Fusce lacinia pellentesque metus, in ullamcorper erat dignissim sit amet. Praesent sodales efficitur erat placerat facilisis. Nulla consequat orci eros, non facilisis arcu cursus ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-Vivamus tristique id augue id rutrum. Maecenas convallis nibh augue, vitae sagittis tortor pellentesque at. Quisque efficitur metus eu mi ullamcorper, vel molestie libero suscipit. Vivamus nec magna nisi. Nulla nec augue vitae libero tristique egestas blandit in massa.
+<!--- Why is this change required? What problem does it solve? -->
 
 ## How has this been tested?
-Curabitur egestas blandit eros sed laoreet. Donec tempor ex vel ipsum vulputate lobortis. Donec augue enim, vestibulum non odio eu, tincidunt fermentum odio. Cras lobortis lorem at metus fermentum accumsan. Suspendisse est ligula, viverra ut metus rutrum, dictum pellentesque libero. Vivamus mattis mauris diam, eget imperdiet lectus rutrum et. Maecenas accumsan orci eu felis fermentum, quis consectetur diam efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+<!--- Please describe in detail how you tested your changes. -->
+<!--- Typically this would be testing locally -->
 
 ## Screenshots (if appropriate):
-N/A
 
 ## Types of changes
+<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 
 ## Checklist:
+<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
+<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
