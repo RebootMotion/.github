@@ -25,3 +25,5 @@
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
+<!-- If your code requires a new environment variable or something similar, please go over that in the description section of this template -->
+- [ ] My code requires a new environment variable or other globally accessible value.
