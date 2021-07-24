@@ -21,9 +21,9 @@
 
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
+<!-- If your code requires a new environment variable or something similar, please go over that in the description section of this template and check the box below -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
-<!-- If your code requires a new environment variable or something similar, please go over that in the description section of this template -->
 - [ ] My code requires a new environment variable or other globally accessible value.
