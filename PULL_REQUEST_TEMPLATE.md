@@ -1,5 +1,5 @@
 <!--- The title of the pull request should be the Jira ticket number and name; ex. PIPELINE-6: As a user, I want to be able to log in to the dashboard. -->
-
+<!--- While we generally want PRs to only address one Jira ticket, if your PR has addressed multiple tickets, please add them to the end of the title. For example: PIPELINE-6: As a user, I want to be able to log in to the dashboard - PIPELINE-7 --->
 ## Description
 <!--- Describe your changes in detail -->
 <!-- Take a look at our Notion page on PRs - https://www.notion.so/rebootmotion/Development-Lifecycle-3b40bde370ed45acbd8a747da58331bd -->
@@ -18,6 +18,7 @@
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Enhancement (enhances currently existing functionality or changes it in some way that is non-breaking and also not addressing a bug)
 
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
