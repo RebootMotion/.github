@@ -1,6 +1,6 @@
 name: Bug Fix
-description: Report a bug that needs to be fixed.
-title: "[Bug]: "
+description: Report a bug that needs to be fixed. Used for non-breaking changes that fix an issue.
+title: "[BUG_FIX]: "
 labels: ["bug", "triage"]
 body:
   - type: textarea
