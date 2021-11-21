@@ -1,5 +1,11 @@
 # Reboot Motion Github Settings
 
+## Label Definitions
+
+Unlike the other elements in this repository, the files in the [LABELS](./LABELS) directory do not directly impact GitHub settings. Instead, it is used so we can track our desired workflow labels in Github and leverage Issues/Pull Requests to collaborate on future adjustments in a single locaiton. 
+
+Github Issue labels typically need to be manually modified in the organization's [Repository Defaults](https://github.com/organizations/RebootMotion/settings/repository-defaults) settings area, as described in the [relevant Github documentation](https://docs.github.com/en/organizations/managing-organization-settings/managing-default-labels-for-repositories-in-your-organization); however, terraform is used here to remove manual steps from the process.
+
 ## Issue Templates
 
 The [ISSUE_TEMPLATE](./ISSUE_TEMPLATE/) folder sets the organization-wide default for adding new issues to repositories, reflecting the types of issues in Reboot Motion's current workflow:
