@@ -1,0 +1,61 @@
+name: Breaking Change
+description: Suggest a breaking change. Used for both bug fixes and new feature when they could cause existing functionality to not work as expected.
+title: "[BREAKING CHANGE]: "
+labels: ["breaking change"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the changes you are suggested, using as much detail as possible.
+      placeholder:
+      validations:
+        required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation & Context 
+      description: Why is this change required? What problem does it solve, or how does it better serve our customers?
+      placeholder:
+      validations:
+        required: true
+  - type: textarea
+    id: ramifications
+    attributes:
+      label: Potential Ramifications
+      description: Which existing functionality will this (or could this) change affect?
+      placeholder:
+      validations:
+        required: true
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: Mitigation Strategies
+      description: How can we mitigate the impact of this change? (This will likely be the basis for future issues.)
+      placeholder:
+      validations:
+        required: true
+  - type: textarea
+    id: acceptancecritera
+    attributes:
+      label: Acceptance Criteria
+      description: What are the outcomes that this change should deliver?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true
+  - type: textarea
+    id: definitionofdone
+    attributes:
+      label: Definition of Done
+      description: What are the technical items that need to be completed for this change?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true

@@ -43,4 +43,27 @@ body:
       placeholder: ex. 
       validations:
         required: false
-
+  - type: textarea
+    id: acceptancecritera
+    attributes:
+      label: Acceptance Criteria
+      description: What are the outcomes that this change should deliver?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true
+  - type: textarea
+    id: definitionofdone
+    attributes:
+      label: Definition of Done
+      description: What are the technical items that need to be completed for this change?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true

@@ -1,0 +1,54 @@
+name: New Feature
+description: Suggest a new feature in the format of a user story. Used for non-breaking changes which add functionality.
+title: "[FEATURE]: As a <type of user>, I want to <perform an action>, so <some benefit is realized>."
+labels: ["feature"]
+body:
+  - type: textarea
+    id: userstory
+    attributes:
+      label: User Story
+      description: Please re-state the user story from the issue title.
+      placeholder: |
+          As a <type of user>, I want to <perform an action>, so <some benefit is realized>.
+      validations:
+        required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the changes you are suggested, using as much detail as possible.
+      placeholder:
+      validations:
+        required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation & Context 
+      description: Why is this change required? What problem does it solve, or how does it better serve our customers?
+      placeholder:
+      validations:
+        required: true
+  - type: textarea
+    id: acceptancecritera
+    attributes:
+      label: Acceptance Criteria
+      description: What are the outcomes that this change should deliver?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true
+  - type: textarea
+    id: definitionofdone
+    attributes:
+      label: Definition of Done
+      description: What are the technical items that need to be completed for this change?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true
