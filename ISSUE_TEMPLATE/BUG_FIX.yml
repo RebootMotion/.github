@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Bug Fix
+description: Report a bug that needs to be fixed.
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
