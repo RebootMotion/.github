@@ -1,7 +1,7 @@
 name: Breaking Change
 description: Suggest a breaking change. Used for both bug fixes and new feature when they could cause existing functionality to not work as expected.
 title: "[BREAKING CHANGE]: "
-labels: ["breaking change"]
+labels: ["breaking"]
 body:
   - type: textarea
     id: description
