@@ -2,7 +2,7 @@
   "categories": {
     "environment": {
       "name": "Environment",
-      "color": "#CEAFB",
+      "color": "#CEAFB6",
       "labels": [
         "staging",
         "local"
