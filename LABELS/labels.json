@@ -38,7 +38,7 @@
     },
     "products": {
       "name": "Products",
-      "color": "#009BCC",
+      "color": "#2BA897",
       "labels": [
         "api",
         "dashboard",
