@@ -1,0 +1,82 @@
+{
+  "categories": {
+    "environment": {
+      "name": "Environment",
+      "color": "#CEAFB",
+      "labels": [
+        "staging",
+        "local"
+      ]
+    },
+    "feedback": {
+      "name": "Feedback",
+      "color": "#9F2BFF",
+      "labels": [
+        "discussion",
+        "needs more info",
+        "question"
+      ]
+    },
+    "inactive": {
+      "name": "Inactive",
+      "color": "#EEF0F3",
+      "labels": [
+        "duplicate",
+        "invalid",
+        "on hold",
+        "wontfix"
+      ]
+    },
+    "problem": {
+      "name": "Problem",
+      "color": "#E51616",
+      "labels": [
+        "bug",
+        "production",
+        "security"
+      ]
+    },
+    "products": {
+      "name": "Products",
+      "color": "#009BCC",
+      "labels": [
+        "api",
+        "dashboard",
+        "db",
+        "mocap",
+        "pipeline"
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "color": "#009BCC",
+      "labels": [
+        "breaking",
+        "code change",
+        "design",
+        "documentation",
+        "enhancement",
+        "feature",
+        "infrastructure",
+        "optimization",
+        "repository"
+      ]
+    },
+    "workflow": {
+      "name": "Workflow/Status",
+      "color": "#EAD8AD",
+      "labels": [
+        "awaiting acceptance",
+        "accepted",
+        "in progress",
+        "awaiting review",
+        "done"
+      ]
+    },
+    "uncategorized": {
+      "name": "Uncategorized/Miscellaneous",
+      "color": "#C9BCFF",
+      "labels": []
+    }
+  }
+}
