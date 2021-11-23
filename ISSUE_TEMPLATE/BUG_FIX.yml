@@ -1,0 +1,69 @@
+name: Bug Fix
+description: Report a bug that needs to be fixed. Used for non-breaking changes that fix an issue.
+title: "[BUG_FIX]: "
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Please provide a brief summary of the issue.
+      placeholder: ex. 
+      validations:
+        required: true
+  - type: textarea
+    id: expectedbehavior
+    attributes:
+      label: Expected Behavior 
+      description: What were you expecting to happen instead?
+      placeholder: ex. 
+      validations:
+        required: true
+  - type: textarea
+    id: stepstoreproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please enter detailed steps to reproduce the issue. Be as thorough as possible.
+      placeholder: ex.
+      validations:
+        required: true
+  - type: textarea
+    id: screenshotorrecording
+    attributes:
+      label: Screenshot (optional)
+      description: Can you provide a screenshot or screen recording showing the issue?
+      placeholder: ex.
+      validations:
+        required: false
+  - type: textarea
+    id: additionaldetails
+    attributes:
+      label: Additional Details (optional)
+      description: Are there any other pieces of information you'd like to provide?
+      placeholder: ex. 
+      validations:
+        required: false
+  - type: textarea
+    id: acceptancecritera
+    attributes:
+      label: Acceptance Criteria
+      description: What are the outcomes that this change should deliver?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true
+  - type: textarea
+    id: definitionofdone
+    attributes:
+      label: Definition of Done
+      description: What are the technical items that need to be completed for this change?
+      placeholder: |
+        Example:
+          - 
+          -
+          -
+      validations:
+        required: true
