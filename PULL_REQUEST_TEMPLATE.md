@@ -1,5 +1,6 @@
-<!--- The title of the pull request should be the Jira ticket number and name; ex. PIPELINE-6: As a user, I want to be able to log in to the dashboard. -->
-<!--- While we generally want PRs to only address one Jira ticket, if your PR has addressed multiple tickets, please add them to the end of the title. For example: PIPELINE-6: As a user, I want to be able to log in to the dashboard - PIPELINE-7 --->
+<!--- The title of the pull request should reflect the title of the main Github Issue for this PR -->
+<!--- If there are multiple Issues resolved in this PR, choose the one that is most representative of the purpose of this PR for the title and include the rest using the keywords closes, fixes, or resolves and the Issue number - for example: closes #161 --->
+
 ## Description
 <!--- Describe your changes in detail -->
 <!-- Take a look at our Notion page on PRs - https://www.notion.so/rebootmotion/Development-Lifecycle-3b40bde370ed45acbd8a747da58331bd -->
@@ -12,6 +13,7 @@
 <!--- Typically this would be testing locally -->
 
 ## Screenshots (if appropriate):
+
 
 ## Types of changes
 <!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
